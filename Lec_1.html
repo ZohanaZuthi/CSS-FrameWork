@@ -1,0 +1,64 @@
+/* CSS=Cascading style sheet */
+/* selector Declaration */
+/*  css are three types :inline ,internal,external*/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exploring css</title>
+</head>
+<!-- to identify id we have to add # infront id name -->
+ <!-- to identify class we have to add . infront of class name -->
+  <!-- for universal selector we have to use * -->
+   <!-- for group selector we can add those tags using coma, -->
+<style>
+    #wow{
+        font-size: larger;
+        font-weight: bold;
+    }
+    #css{
+        color:aqua;
+    }
+    #short{
+        color:bisque;
+        text-align: center;
+    }
+    p{
+        background-color: rgb(128, 103, 154);
+       width:50%;
+    }
+    li{
+        color:rgb(200, 84, 84);
+    }
+    .player{
+        background-color: rgb(45, 19, 139);
+        text-align: right;
+    }
+    *{
+        margin:04;
+        padding:0;
+        border:1px solid;
+    }
+    h4,h3{
+        text-decoration:dotted;
+    }
+    
+</style>
+<body>
+    <!-- to add any style the rule is style="style_rule:style-value;" -->
+     <!-- or you can make a separate style blog just for styling and add all the style in that blog -->
+    <h3 style="color: blue;">Learning CSS by Heart</h3>
+    <h4 style="background-color: aquamarine;">INline Css</h4>
+    <p class="player">CSS meaning:Cascading Style sheet</p>
+    <p id="css">CSS meaning:Cascading Style sheet</p>
+    <p class="player" id="short">CSS meaning:Cascading Style sheet</p>
+    <p>CSS meaning:Cascading Style sheet</p>
+    <ul><li>Inline</li>
+        <li id="wow">Internal</li>
+        <li class="player">External</li>
+
+    </ul>
+    
+</body>
+</html>

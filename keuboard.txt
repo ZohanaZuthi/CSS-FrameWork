@@ -1,0 +1,5 @@
+keyBoard Shortcut
+control+B= to off the side bar
+---->   to copy and paste multiple times
+1. select the text
+2. shift+alt+down
